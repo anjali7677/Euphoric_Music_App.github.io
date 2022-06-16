@@ -130,7 +130,77 @@ nav ul li{
 
 @media only screen and (max-width: 1100px) {
     body {
-      background-color: rgb(117, 30, 30);
+      background-color: rgb(35, 42, 38);
     }
+
+    .container{
+        min-height: 72vh;
+        background-color: black;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+        display: flex;
+        margin: 23px auto;
+        width: 88%;
+        border-radius: 12px;
+        padding: 34px;
+        background-image: url('bg.jpg');
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        box-shadow: 10px 13px rgb(19, 26, 19);
+    }
+
+    .songInfo{
+        margin-bottom: 70px;
+        float: left;
+        font-size: 60%;
+        overflow-y: auto;
+        background-color: #160d56;
+    }
+
+    .bottom{
+        position: sticky;
+        bottom: 0;
+        height: 130px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+    .icons{
+        margin-top: 50px; 
+    
+    }
+    .icons i{
+        cursor: pointer;
+        size: 3rem;
+    }
+
+    #myProgressBar{
+        width: 80vw; 
+        cursor: pointer;
+    }
+
+    .songName{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .timestamp{
+        font-size: 12px;
+    }
+
+    .songItem img{
+        width: 32px;
+        margin: 0 13px;
+        border-radius: 34px;
+    }
+
+   
    
   }
